@@ -1,0 +1,221 @@
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio - Fattorini</title>
+
+    <link rel="icon" type="image/png" href="img/logo/icon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/6a9e34f771.js" crossorigin="anonymous"></script>
+
+  </head>
+
+  <body>
+
+    <!-- BACK TOP / LOADER -->
+
+    <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <div class="loader">
+      <img src="img/logo/logo.png" style="padding-bottom: 60px; width: 60px;">
+      <div>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+
+    <div class="main">
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light d-flex flex-column">
+
+        <div class="container-fluid">
+          <a class="navbar-brand d-flex align-self-center" href="index.html"><img src="img/logo/logo.png"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse d-lg-flex justify-content-lg-end" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item contatti">
+                <a class="nav-link" href="index.html#contacts">Contacts</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="progress-container" style="position: absolute; bottom: 0;">
+          <div class="progress-bar" id="myBar"></div>
+        </div>
+
+    </nav>
+
+    <!-- SECTION -->
+
+    <div class="section-1 section-1-2 d-flex flex-column justify-content-center col-12" style="text-align:center; margin-bottom: 150px">
+
+      <h1>Portfolio<span>.</span></h1>
+      <h3 id="carousel-words">#WebDevelopment</h3>
+      <p style="margin: 0">Welcome to my personal portfolio. I'm happy to show you some of my projects! <br>If you like them, contact me to make one together.</p>
+
+    </div>
+
+    <!-- PROJECTS -->
+
+    <div class="portfolio portfolio-2 d-flex flex-column justify-content-center">
+
+      <div class="d-flex align-items-center flex-column portfolio-content portfolio-content-2" style="background: none; padding: 0px;">
+
+        <ul class="filter-menu d-flex flex-column flex-lg-row">
+          <li data-target="all">All</li>
+          <li data-target="development">Web Development</li>
+          <li data-target="graphics">Graphic Design</li>
+          <li data-target="ui">User Interface</li>
+        </ul>
+  
+        <ul class="filter-item projects d-flex flex-xxl-row flex-column col-12">
+  
+          <li data-item="development" class="projects-content d-flex justify-content-center col-12 col-xxl-4">
+
+            <a href="edonoleggio.html">
+            <div class="card text-white">
+              <img src="img/projects/job_1.jpg" class="card-img" alt="Website">
+              <div class="card-img-overlay d-flex align-items-end justify-content-center">
+                <h4 class="card-title">Edonoleggio<span>.</span></h4>
+              </div>
+            </div>
+            </a>
+              
+          </li>
+          
+          <li data-item="ui" class="projects-content d-flex justify-content-center col-12 col-xxl-4">
+
+            <a href="startup_mag.html">
+            <div class="central-card card text-white">
+              <img src="img/projects/job_2.jpg" class="card-img" alt="Website">
+              <div class="card-img-overlay d-flex align-items-end justify-content-center">
+                <h4 class="card-title">StartUp Mag<span>.</span></h4>
+              </div>
+            </div>
+            </a>
+            
+          </li>
+
+          <li data-item="development" class="projects-content projects-last d-flex justify-content-center col-12 col-xxl-4">
+            
+            <a href="visit_lampedusa.html">
+            <div class="card text-white">
+              <img src="img/projects/job_3.jpg" class="card-img" alt="Website">
+              <div class="card-img-overlay d-flex align-items-end justify-content-center">
+                <h4 class="card-title">Visit Lampedusa<span>.</span></h4>
+              </div>
+            </div>
+            </a>
+          
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <hr class="hr" style="margin-top: 150px;">
+
+    <!-- FOOTER -->
+
+    <footer>
+
+      <div class="d-flex flex-column flex-xxl-row justify-content-center">
+
+        <div class="d-flex justify-content-center justify-content-xxl-start align-items-center flex-row flex-xxl-column col-12 col-xxl-3">
+
+          <div class="d-flex align-items-center justify-content-center align-items-xxl-start justify-content-xxl-start flex-column">
+            <h4>Contacts<span>.</span></h4>
+            <ul>
+              <li><i class="fas fa-envelope"></i>gabriele.fattorini[at]gmail.com</li>
+              <li><i class="fas fa-phone"></i>+39 3293078201</li>
+            </ul>
+          </div>  
+
+        </div>
+
+        <div class="d-flex justify-content-center justify-content-xxl-start align-items-center flex-row flex-xxl-column col-12 col-xxl-3">
+
+          <div class="d-flex align-items-center justify-content-center align-items-xxl-start justify-content-xxl-start flex-column">
+            <h4>Services<span>.</span></h4>
+            <ul>
+              <li><a href="portfolio.html">Web Development</a></li>
+              <li><a href="portfolio.html">Graphic Design</a></li>
+              <li><a href="portfolio.html">User Interface</a></li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="d-flex justify-content-center justify-content-xxl-start align-items-center flex-row flex-xxl-column col-12 col-xxl-3">
+
+          <div class="d-flex align-items-center justify-content-center align-items-xxl-start justify-content-xxl-start flex-column">
+            <h4>Latest Works<span>.</span></h4>
+            <ul>
+              <li><a href="edonoleggio.html">Edonoleggio</a></li>
+              <li><a href="startup_mag.html">StartUp Mag</a></li>
+              <li><a href="visit_lampedusa.html">Visit Lampedusa</a></li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="d-flex justify-content-center justify-content-xxl-start align-items-center flex-row flex-xxl-column col-12 col-xxl-3">
+
+          <div class="d-flex align-items-center justify-content-center align-items-xxl-start justify-content-xxl-start flex-column">
+            <h4>Social<span>.</span></h4>
+            <ul class="social">
+              <li><a href="https://www.linkedin.com/in/gabriele-fattorini-56753b180/" target=”_blank”><i class="fab fa-linkedin-in"></i>Linkedin</a></li>
+              <li><a href="https://it-it.facebook.com/gabriele.fattorini" target=”_blank”><i class="fab fa-facebook-f facebook"></i>Facebook</a></li>
+              <li><a href="https://www.instagram.com/gabriele.fattorini/" target=”_blank”><i class="fab fa-instagram"></i>Instagram</a></li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+
+      <p class="copyright">Copyright © 2021 Gabriele Fattorini. All rights reserved.</p>
+
+    </footer>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+
+  </body>
+
+</html>
