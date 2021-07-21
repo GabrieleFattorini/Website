@@ -1,4 +1,4 @@
-/**********************************************************/
+/********************** MEDIA QUERIES *************************/
 
 @media (max-width: 1700px){
 
@@ -33,24 +33,7 @@
 
 /**********************************************************/
 
-@media (max-width: 1200px){
-
-    .navbar{
-        
-        button{
-            border: none !important;
-        }
-
-        button:focus{
-            display: none !important;
-        }
-
-        .navbar-toggler-icon{
-            background-image: url("../img/menu.png") !important;
-            width: 31px;
-        }
-
-    } 
+@media (max-width: 1400px){
 
     .section-1{
         text-align: center;
@@ -163,8 +146,22 @@
 /**********************************************************/
 
 @media (max-width: 991px){
+
     .navbar{
         font-size: 18px;
+
+        button{
+            border: none !important;
+        }
+
+        button:focus{
+            color: #fff;
+        }
+
+        .navbar-toggler-icon{
+            background-image: url("../img/others/menu.png") !important;
+            width: 31px;
+        }
 
         ul{
             margin: 50px 0px !important; 
