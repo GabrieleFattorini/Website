@@ -153,8 +153,9 @@ footer .copyright {
   padding: 12px !important;
 }
 
-.navbar .navbar-brand {
-  height: 40px;
+.navbar img {
+  height: 30px;
+  width: auto;
 }
 
 .nav-item {
