@@ -154,7 +154,7 @@ footer .copyright {
 }
 
 .navbar img {
-  height: auto;
+  height: auto !important;
   width: 40px;
 }
 
