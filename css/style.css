@@ -148,18 +148,14 @@ footer .copyright {
   margin-top: 90px;
 }
 
-.navbar-brand {
-  height: 40px !important;
-  width: 40px !important;
-}
-
 .navbar {
   background: #fff;
   padding: 12px !important;
 }
 
 .navbar .navbar-brand {
-  width: 40px;
+  width: auto;
+  height: 40px !important;
 }
 
 .nav-item {
