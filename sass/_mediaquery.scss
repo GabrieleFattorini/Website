@@ -21,12 +21,29 @@
 
 @media (max-width: 1500px){
 
+    .about{
+        margin: 200px 0px 200px 0px;
+    }
+
     .services{
+        margin-bottom: 100px;
 
         .service-card{
             padding: 0px 15px;
         }
     
+    }
+
+    .portfolio{
+        margin-bottom: 100px;
+    }
+
+    .contacts{
+        margin-bottom: 100px;
+    }
+
+    footer{
+        margin-top: 100px;
     }
     
 }
@@ -73,7 +90,6 @@
 @media (max-width: 1200px){
 
     .about{
-        margin: 200px 0px 200px 0px;
 
         .btn{
             align-self: center;
@@ -88,7 +104,6 @@
     }
 
     .services{
-        margin-bottom: 100px;
 
         .btn{
             margin-bottom: 100px;
@@ -96,7 +111,6 @@
     }
 
     .portfolio{
-        margin-bottom: 100px;
 
         .projects{
             width: 60%;
@@ -118,7 +132,6 @@
     }
 
     .contacts{
-        margin-bottom: 100px;
 
         img{
             display: none;
@@ -127,7 +140,6 @@
 
     footer{
         text-align: center;
-        margin-top: 150px;
 
         ul{
             margin-bottom: 100px;

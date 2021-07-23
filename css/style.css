@@ -644,8 +644,23 @@ textarea {
 
 /**********************************************************/
 @media (max-width: 1500px) {
+  .about {
+    margin: 200px 0px 200px 0px;
+  }
+  .services {
+    margin-bottom: 100px;
+  }
   .services .service-card {
     padding: 0px 15px;
+  }
+  .portfolio {
+    margin-bottom: 100px;
+  }
+  .contacts {
+    margin-bottom: 100px;
+  }
+  footer {
+    margin-top: 100px;
   }
 }
 
@@ -672,9 +687,6 @@ textarea {
 
 /**********************************************************/
 @media (max-width: 1200px) {
-  .about {
-    margin: 200px 0px 200px 0px;
-  }
   .about .btn {
     align-self: center;
     margin-bottom: 100px;
@@ -683,13 +695,7 @@ textarea {
     width: 50% !important;
     margin-top: 30px;
   }
-  .services {
-    margin-bottom: 100px;
-  }
   .services .btn {
-    margin-bottom: 100px;
-  }
-  .portfolio {
     margin-bottom: 100px;
   }
   .portfolio .projects {
@@ -705,15 +711,11 @@ textarea {
     margin-bottom: 80px;
     max-width: 60% !important;
   }
-  .contacts {
-    margin-bottom: 100px;
-  }
   .contacts img {
     display: none;
   }
   footer {
     text-align: center;
-    margin-top: 150px;
   }
   footer ul {
     margin-bottom: 100px;
