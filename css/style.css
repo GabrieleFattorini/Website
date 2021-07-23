@@ -643,6 +643,13 @@ textarea {
 }
 
 /**********************************************************/
+@media (max-width: 1500px) {
+  .services .service-card {
+    padding: 0px 15px;
+  }
+}
+
+/**********************************************************/
 @media (max-width: 1450px) {
   .section-1 i {
     display: none !important;
@@ -655,9 +662,16 @@ textarea {
     text-align: center;
   }
   .section-1 img {
-    width: 70% !important;
+    width: 60% !important;
     margin-top: 20px;
   }
+  .about img {
+    display: none;
+  }
+}
+
+/**********************************************************/
+@media (max-width: 1200px) {
   .about {
     margin: 200px 0px 200px 0px;
   }
@@ -749,6 +763,9 @@ textarea {
   }
   .navbar li {
     margin: 5px 0px !important;
+  }
+  .section-1 img {
+    width: 70% !important;
   }
 }
 

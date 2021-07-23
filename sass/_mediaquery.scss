@@ -19,6 +19,20 @@
 
 /**********************************************************/
 
+@media (max-width: 1500px){
+
+    .services{
+
+        .service-card{
+            padding: 0px 15px;
+        }
+    
+    }
+    
+}
+
+/**********************************************************/
+
 @media (max-width: 1450px){
 
     .section-1{
@@ -37,13 +51,26 @@
 
     .section-1{
         text-align: center;
+        
+        img{
+            width: 60% !important;
+            margin-top: 20px;
+        }
+    }
+
+    .about{
 
         img{
-            width: 70% !important;
-            margin-top: 20px;
+            display: none;
         }
 
     }
+
+}
+
+/**********************************************************/
+
+@media (max-width: 1200px){
 
     .about{
         margin: 200px 0px 200px 0px;
@@ -170,6 +197,13 @@
         
         li{
             margin: 5px 0px !important;
+        }
+    }
+
+    .section-1{
+
+        img{
+            width: 70% !important;
         }
     }
 }
